@@ -72,7 +72,10 @@ const HomeScreen = ({ navigation }) => {
         </View>
 
         {/* Search Bar */}
-        <View style={styles.searchContainer}>
+        <TouchableOpacity
+          style={styles.searchContainer}
+          onPress={() => alert('Search functionality is simulated.')}
+        >
           <MaterialCommunityIcons
             name="magnify"
             size={20}
@@ -86,7 +89,7 @@ const HomeScreen = ({ navigation }) => {
             color="#999"
             style={styles.filterIcon}
           />
-        </View>
+        </TouchableOpacity>
 
         {/* Popular Destinations Section */}
         <View style={styles.sectionHeader}>
@@ -209,7 +212,7 @@ const styles = StyleSheet.create({
   sectionHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'flex-end', // Changed from 'center' to 'flex-end' to align the text baselines
     paddingHorizontal: 16,
     marginBottom: 12,
   },

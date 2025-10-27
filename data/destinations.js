@@ -23,7 +23,7 @@ export const destinations = [
     id: 3,
     title: 'Bali',
     country: 'Indonesia',
-    image: require('../assets/bali.jpg'),
+    image: require('../assets/bali.webp'), // Note: Using .webp extension for this image
     rating: 4.9,
     price: 3500,
     description: 'Explore the tropical paradise of Bali with stunning beaches and cultural attractions.',
