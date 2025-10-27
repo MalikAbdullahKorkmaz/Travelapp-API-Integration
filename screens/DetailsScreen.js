@@ -227,10 +227,14 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%',
   },
-6,
+  backButton: {
+    position: 'absolute',
+    top: 40,
+    left: 16,
     backgroundColor: 'rgba(0, 0, 0, 0.4)',
     borderRadius: 20,
     padding: 8,
+    zIndex: 10, // Z index ekleyelim ki her zaman önde olsun
   },
   favoriteButton: {
     position: 'absolute',
