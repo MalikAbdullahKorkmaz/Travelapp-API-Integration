@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -11,9 +11,28 @@ import {
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import DestinationCard from '../components/DestinationCard';
-import { destinations } from '../data/destinations';
+import { API_URL } from '../config';
 
 const HomeScreen = ({ navigation }) => {
+    const [destinations, setDestinations] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const fetchDestinations = async () => {
+    try {
+      const response = await fetch(API_URL);
+      const data = await response.json();
+      setDestinations(data);
+    } catch (error) {
+      console.error('Error fetching destinations:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchDestinations();
+  }, []);
+
   const popularDestinations = destinations.slice(0, 3);
 
   const handleCardPress = (destination) => {

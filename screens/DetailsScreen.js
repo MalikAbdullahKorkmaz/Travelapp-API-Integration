@@ -34,7 +34,7 @@ const DetailsScreen = ({ route, navigation }) => {
         {/* Image Header with Back Button */}
         <View style={styles.imageContainer}>
           <Image
-            source={destination.image}
+            source={{ uri: destination.image }}
             style={styles.image}
             resizeMode="cover"
           />

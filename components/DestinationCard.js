@@ -29,7 +29,7 @@ const DestinationCard = ({ destination, onPress, onFavoritePress }) => {
     >
       <View style={styles.imageContainer}>
         <Image
-          source={destination.image}
+          source={{ uri: destination.image }}
           style={styles.image}
           resizeMode="cover"
         />
