@@ -1,10 +1,10 @@
 # TravelGo - Hotel & Destination Explorer
 
-## 🎥 Video Tanıtım (Video Demo)
+## 🎥 Video Demo
 
-Projenin canlı demosunu ve özelliklerini aşağıdaki videodan izleyebilirsiniz:
+You can watch the live demo and features of the project in the video below:
 
-[**Uygulama Tanıtım Videosu**](https://files.manuscdn.com/user_upload_by_module/session_file/310519663214959292/yfhJksksmUOHkqsE.mp4)
+[**Application Demo Video**](https://files.manuscdn.com/user_upload_by_module/session_file/310519663214959292/yfhJksksmUOHkqsE.mp4)
 
 ---
 
