@@ -384,3 +384,18 @@ Built with:
 **Made with ❤️ for travel enthusiasts**
 
 Happy travels and happy coding! 🚀✈️
+
+---
+
+## 👨‍💻 Project Contributor & Details
+
+This project was developed as a comprehensive demonstration of modern web and mobile application development, focusing on API integration and a clean, responsive user interface.
+
+| Detail | Value |
+| :--- | :--- |
+| **Name** | Abdullah Malik Korkmaz |
+| **Class** | TI23T |
+| **NIM** | 20230040342 |
+| **Major** | Informatics Engineering |
+| **Project** | TravelGo - Hotel & Destination Explorer |
+| **Description** | A beautiful, responsive travel application built with React and TypeScript, demonstrating advanced API integration patterns for searching hotels and exploring global destinations. The application is packaged for Android using Capacitor. |
