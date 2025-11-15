@@ -1,5 +1,13 @@
 # TravelGo - Hotel & Destination Explorer
 
+## 🎥 Video Tanıtım (Video Demo)
+
+Projenin canlı demosunu ve özelliklerini aşağıdaki videodan izleyebilirsiniz:
+
+[**Uygulama Tanıtım Videosu**](https://files.manuscdn.com/user_upload_by_module/session_file/310519663214959292/yfhJksksmUOHkqsE.mp4)
+
+---
+
 A beautiful, responsive travel app that lets you explore hotels and discover amazing destinations worldwide. Built with React, TypeScript, and Vite for blazing-fast performance.
 
 ## 🌍 Features
